@@ -1,10 +1,10 @@
-#John Bhanini & Siva Kumar Bhodapati
+**John Bhanini & Siva Kumar Bhodapati**
 
-##Class: 
+**Class:**
 
 NoSQL Databases
 
-##Project:
+**Project:**
 
 A simple product catalogue to apply what we learned in class. Please note that we didn't finish setting up a server for our catalogue due to the limited time we had. 
 
@@ -13,7 +13,7 @@ Product catalog data management is a complex problem for retailers today. (vendo
 In today’s vendor-provided systems, product data must frequently be moved back and forth using ETL processes to ensure all systems are operating on the same data set. (Slow, error prone, expensive)
 
 
-##Why MongoDB:
+**Why MongoDB:**
 
 - Document flexibility: Each MongoDB document can store data represented as rich JSON structures. This makes MongoDB ideal for storing just about anything, including very large catalogs with thousands of variants per item.
 
@@ -27,13 +27,13 @@ In today’s vendor-provided systems, product data must frequently be moved back
 
 - Geo-distributed replicas: MongoDB replica sets can be geo-distributed, so that they are close to users for fast access, mitigating the need for CDNs in many cases.
 
-##The Data:
+**The Data:**
 
 We got our original data from dataworld in a csv format https://data.world/jfreex/products-catalog-from-newchiccom
 
 After some cleaning up, we saved what we needed in the csv folder.
 
-##Plan of Action:
+**Plan of Action:**
 
 - Clean and manipulate the data to cater to our needs. (index.js)
 - Create our MongoDb. (mongoose.js)
