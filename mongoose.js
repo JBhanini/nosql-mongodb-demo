@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 mongoose.connect('mongodb://localhost/catalog', {useNewUrlParser: true, useUnifiedTopology: true });
 
-// Create our Schemas
+// Create our Schemasdasdadasdasdas
 
 const Schema = mongoose.Schema
 
