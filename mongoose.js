@@ -32,7 +32,9 @@ const ProductsSchema = new Schema({
     brand : { type: Schema.Types.ObjectId, ref: 'Brand'},
     category : { type: Schema.Types.ObjectId, ref: 'Category'},
     subcategory : String
-    })
+    });
+
+ProductsSchema.index({ current_price: 1 , disscount: 1 , likes_count: 1 , brand: 1 , category:1 });
 
 //Create Models from our Schemas
 
